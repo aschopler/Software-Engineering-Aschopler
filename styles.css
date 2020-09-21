@@ -66,6 +66,19 @@ body {
     font-weight: normal;
     padding: 0px 0px 0px 0px;
   }
+
+  h6 {
+    color: black;
+    font-family: "Arial", Arial, Sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    padding: 0px 50px 0px 50px;
+  }
   
   img {
     display: block;
@@ -157,6 +170,14 @@ body {
     line-height: 20px;
     text-align: center;
     padding: 15px 50px 15px 50px;
+  }
+
+  p3 {
+    font-family: "Arial", Arial, Sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: left;
+    padding: 15px;
   }
 
   /*
