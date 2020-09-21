@@ -130,7 +130,7 @@ body {
     text-align: center;
   }
   
-  input[type=button], input[type=submit] {
+  button, input[type=button], input[type=submit] {
     font-family: "Arial", Arial, Sans-serif;
     letter-spacing: 1px;
     background-color: #3f889d;
@@ -150,12 +150,22 @@ body {
     text-align: left;
     padding: 15px 50px 15px 50px;
   }
+
+  p2 {
+    font-family: "Arial", Arial, Sans-serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+  }
+
   /*
   div {
       text-align: center;
       padding: 15px 50px 15px 50px;
   }
   */  
+  
   label {
     font-family: "Arial", Arial, Sans-serif;
     letter-spacing: 1px;
@@ -177,6 +187,16 @@ body {
     padding: 5px 5px;
     margin: 5px 0;
     border: none;
+    border-bottom: 2px solid #B8BAB2;
+  }
+
+  input[type=dice_text] {
+    font-family: "Arial", Arial, Sans-serif;
+    width: 3%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    border: none;
+    text-align: center;
     border-bottom: 2px solid #B8BAB2;
   }
   
