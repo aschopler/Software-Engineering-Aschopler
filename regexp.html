@@ -76,14 +76,14 @@ Description: This is the regexp tester application
         <div class="regex_field">
             <form>
             <label>Insert a word or string:</label><br>
-            <input id="test_word" type="regex_text" size="5"><br><br>
+            <input id="test_word" type="regex_text" size="5" autofocus><br><br>
             <label>Insert a regular expression:</label><br>
             <input id="reg_exp" type="regex_text" size="5"><br><br>
             <label>Regex results:</label><br>
             <input id="result" type="regex_text" size="5" disabled><br><br><br>
             <div class="regex_button_container">
                 <div class="regex_button_left">
-                    <button type="button" class="button" onclick="RegExpTest(test_word, reg_exp)">Check Regex</button>
+                    <button type="button" class="button" onclick="RegExpTest()">Check Regex</button>
                 </div>
                 <div class="regex_button_right">
                     <button type="reset">Clear Fields</button>
