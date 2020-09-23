@@ -93,11 +93,11 @@ function RollSixSidedDice() {
         // If the dice side value exists, print out the number   
         } else {
             if(k==1){
-                diceResults="Number "+k+": "+diceCountArr[j]+"<br>";
+                diceResults="Number "+k+": <strong>"+diceCountArr[j]+"*</strong><br>";
             } else {
                 // Finding the position of the value in the array
                 x = diceUniqueArr.indexOf(k);
-                diceResults+="Number "+k+": "+(diceCountArr[x])+"<br>";
+                diceResults+="Number "+k+": <strong>"+(diceCountArr[x])+"*</strong><br>";
             } 
         }
     }

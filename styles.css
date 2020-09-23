@@ -86,6 +86,7 @@ body {
     margin-right: auto;
   }
   
+  /*
   ul {
     font-family: "Arial", Arial, Sans-serif;
     letter-spacing: 1px;
@@ -118,6 +119,7 @@ body {
   li:last-child {
     border-right: none;
   }
+  */
   
   table{
     font-family: "Arial", Arial, Sans-serif;
