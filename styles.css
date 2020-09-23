@@ -198,6 +198,30 @@ body {
     padding: 15px;
   }
 
+  .regex_container {
+    text-align: center;
+  }
+
+  .regex_field {
+    display: inline-block; 
+    text-align: left;
+  }
+
+  .regex_button_container {
+    float: center;
+  }
+
+  .regex_button_left {
+    float: left;
+    width: 5%;
+    height: 22px;
+  }
+  .regex_button_right {
+    float: right;
+    width: 0%;
+    height: 22px;
+  }
+
   /*
   div {
       text-align: center;
@@ -236,6 +260,16 @@ body {
     margin: 5px 0;
     border: none;
     text-align: center;
+    border-bottom: 2px solid #B8BAB2;
+  }
+
+  input[type=regex_text] {
+    font-family: "Arial", Arial, Sans-serif;
+    width: 130%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    border: none;
+    text-align: left;
     border-bottom: 2px solid #B8BAB2;
   }
   
